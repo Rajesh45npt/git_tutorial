@@ -25,12 +25,12 @@
 |git help __command__|shows the help page for the command of the git|
 |git log| shows the history of the git|
 |git log --abrev-commit| shows the history of the git with the commit code abbreviated|
-|||
-|||
-|||
-|||
-|||
-|||
+|git log --oneline --graph --decorate | __--oneline__ compresses our log to one line __--graph__ provide ascii graph depicting the branching graph __--decorate__ adds labels or tags that annotate the commits|
+|git log __commit_codefirst...commit_codesecond__| shows the entries from first commit code to the second one|
+|git log --since="3 days ago"|shows the log from 3 days ago|
+|git log -- __filename__| shows the log of the filename|
+|git log --follow -- __filename__|shows the rename and delete log of the __filename__|
+|git show __commit_id__|shows the information about the commit belonging to __commit_id__|
 |||
 |||
 |||
