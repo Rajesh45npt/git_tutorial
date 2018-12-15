@@ -32,7 +32,7 @@
 |git log --follow -- __filename__|shows the rename and delete log of the __filename__|
 |git show __commit_id__|shows the information about the commit belonging to __commit_id__|
 |git config --global alias.hist "log --all --graph --decorate --newline"| create a alias named __hist__ for __git log --all --graph --decorate --newline__ which can be called by git hist and can also be modified and new aliases can be added by editing ~/.gitconfig|
-|||
+|__Git_Ignore_Patterns__|__Specific File:__ Myfile.ext __File Pattern:__ *.ext __Folder:__ my-folder/|
 |||
 |||
 |||
