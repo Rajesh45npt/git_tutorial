@@ -52,3 +52,4 @@
 |git merge __branchname__| merge branch named __branchname__ to current branch|
 |git merge __branchname__ --no-ff| merge branches with merge commit message __--no-ff__ means __no fast forward__|
 |git log --oneline --decorate --graph __--all__|shows log for all branches|
+|git mergetool|to solve merge conflicts and after this commit the resolve of the merge issue|
