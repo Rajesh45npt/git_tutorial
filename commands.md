@@ -42,10 +42,10 @@
 |git diff __commitid1__ __commitid2__|shows the difference between two commits with ids __commitid1__ and __commitid2__|
 |git diff __HEAD__ __HEAD^__|compares between __HEAD__ and __HEAD-1__|
 |git diff master origin/master|shows the difference between local and remote git repository(shows the difference between last commited and last pushed). Also HEAD can be used for current branch instead of master|
-|||
-|||
-|||
-|||
-|||
-|||
+|git branch -a| list all the branches in both local and remote repository|
+|git branch __branchname__| create branch named __branchname__|
+|git branch| list all the branches in the local repository|
+|git checkout __branchname__|change the current branch to the __branchname__|
+|git branch -m __oldbranchname__ __newbranchname__|-m specifies the __move__ used to rename the branch|
+|git branch -d __branchname__|-d specifies the delete command used to delete the branch|
 |||
