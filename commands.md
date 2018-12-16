@@ -48,4 +48,5 @@
 |git checkout __branchname__|change the current branch to the __branchname__|
 |git branch -m __oldbranchname__ __newbranchname__|-m specifies the __move__ used to rename the branch|
 |git branch -d __branchname__|-d specifies the delete command used to delete the branch|
-|||
+|git checkout -b __newbranchname__| create and switch to new branch named __newbranchname__|
+|git merge __branchname__| merge branch named __branchname__ to current branch|
