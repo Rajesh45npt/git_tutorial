@@ -50,3 +50,5 @@
 |git branch -d __branchname__|-d specifies the delete command used to delete the branch|
 |git checkout -b __newbranchname__| create and switch to new branch named __newbranchname__|
 |git merge __branchname__| merge branch named __branchname__ to current branch|
+|git merge __branchname__ --no-ff| merge branches with merge commit message __--no-ff__ means __no fast forward__|
+|git log --oneline --decorate --graph __--all__|shows log for all branches|
