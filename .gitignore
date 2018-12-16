@@ -2,3 +2,4 @@
 folder/
 *.log
 ignorefolder/
+*.orig
