@@ -34,13 +34,14 @@
 |git config --global alias.hist "log --all --graph --decorate --newline"| create a alias named __hist__ for __git log --all --graph --decorate --newline__ which can be called by git hist and can also be modified and new aliases can be added by editing ~/.gitconfig|
 |__Git_Ignore_Patterns__|__Specific File:__ Myfile.ext __File Pattern:__ *.ext __Folder:__ my-folder/|
 |1. __git config__ --global merge.tool p4merge 2. __git config__ --global mergetool.p4merge.path "/home/raj/p4v-2018.4.1740700/bin/p4merge" 3. __git config__ --global mergetool.prompt false|same for diff tool|
-|||
-|||
-|||
-|||
-|||
-|||
-|||
+|git diff|shows the differences in the working directory and the staged files|
+|git difftool| launches the difftool to show the differences in the files in the working directory and staging|
+|git diff __HEAD__ git difftool __HEAD__|shows diff between working directory and local git repository|
+|git diff --staged __HEAD__ git difftool --staged __HEAD__|shows diff between staging area local git repository|
+|git diff -- __filename__|showing the difference for __filename__|
+|git diff __commitid1__ __commitid2__|shows the difference between two commits with ids __commitid1__ and __commitid2__|
+|git diff __HEAD__ __HEAD^__|compares between __HEAD__ and __HEAD-1__|
+|git diff master origin/master|shows the difference between local and remote git repository(shows the difference between last commited and last pushed). Also HEAD can be used for current branch instead of master|
 |||
 |||
 |||
