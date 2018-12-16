@@ -3,3 +3,4 @@ folder/
 *.log
 ignorefolder/
 *.orig
+simple_*.html
