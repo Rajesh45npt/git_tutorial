@@ -1,1 +1,2 @@
 This is the file
+Added line for rebasing from the remote repository.
