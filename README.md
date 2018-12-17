@@ -8,3 +8,4 @@ Add another line
 This is added line
 This is the added sentence.
 This is after rebasing
+Added newline
