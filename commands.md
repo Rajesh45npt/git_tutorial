@@ -53,3 +53,18 @@
 |git merge __branchname__ --no-ff| merge branches with merge commit message __--no-ff__ means __no fast forward__|
 |git log --oneline --decorate --graph __--all__|shows log for all branches|
 |git mergetool|to solve merge conflicts and after this commit the resolve of the merge issue|
+|git rebase master| rebase the current branch to current altered master|
+|git rebase --abort|abort the conflicting rebase issued of the branch|
+|git rebase --continue|use to rebase after using mergetool to solve the rebase conflict|
+|git fetch| update references from the remote repository|
+|git pull --rebase origin master|rebase the current local repository to the remote repository|
+|git stash|save the unadded changes to stash|
+|git stash apply|apply the stashed changes|
+|git stash list|view the list of stash|
+|git stash drop|drop the last entry of stash|
+|git ls-files|view the tracked files by git|
+|git stash -u|stash the unadded new files along with the modified files|
+|git stash pop|pop the stash(similar to __git stash apply__ followed by __git stash drop__|
+|git stash save "__Stash Message__"| used for multiple stash and contains stash message to identify each stash|
+|||
+|||
