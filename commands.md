@@ -66,5 +66,43 @@
 |git stash -u|stash the unadded new files along with the modified files|
 |git stash pop|pop the stash(similar to __git stash apply__ followed by __git stash drop__|
 |git stash save "__Stash Message__"| used for multiple stash and contains stash message to identify each stash|
+|git stash show stash@{__stashid__}|show the changed made with __stashid__|
+|git stash apply stash@{__stashid__}|apply stash with __stashid__|
+|git stash drop stash@{__stashid__|drop stash with __stashid__|
+|git stash clear|clear all the entries in the stash|
+|git stash branch __newbranchname__|create a new branch with the entries on the stash and drop the entries on the stash|
+|__*Stashing entries are available in all branches of the repository so it can be used to transfer mistaken changes to other branches easily*__||
+|||
+|||
+|||
+|__Lightweight Tags__||
+|git tag __TagName__|create a tag with name __TagName__|
+|git tag --list|shows the list of the tag|
+|git show __TagName__|shows the commits in the tag named __TagName__|
+|git tag --delete __TagName__|deletes the tag with name __TagName__|
+|||
+|||
+|||
+|__Annotated Tags__|Tags with more information like commit message|
+|git tag -a __TagName__|add a tag named __TagName__ which prompts for the tag message|
+|git tag __TagName__ -m "__TagMessage__"|another way to create annotated tag named __TagName__ with __TagMessage__|
+|||
+|git commit __--amend__|amend the commit message of last commit|
+|git diff __TagName1__ __TagName2__|shows the differences between __TagName1__ and __TagName2__|
+|git tag -a __TagName__ __commitID__|add a annotated tag named __TagName__ for commit with __commitID__|
+|git tag -a __TagName__ __-f__ __commitID__|move the annotated tag named __TagName__ to __commitID__. __-f__ represents force|
+|git push origin __TagName__|push the tag named __TagName__|
+|git push origin master --tags| push with all the tags to origin master|
+|git push origin :__TagName__|delete the tag named __TagName__ from remote repository|
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
 |||
 |||
