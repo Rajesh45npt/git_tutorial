@@ -10,3 +10,4 @@ This is the added sentence.
 This is after rebasing
 Added newline
 Changed
+Newline to README.md
